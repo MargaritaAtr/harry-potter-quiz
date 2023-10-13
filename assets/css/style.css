@@ -74,3 +74,10 @@ body {
     cursor: pointer;
     display: none;
 }
+.correct{
+    background: rgb(100, 168, 100);
+}
+
+.wrong{
+    background: rgb(171, 92, 92);
+}
