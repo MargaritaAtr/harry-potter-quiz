@@ -150,3 +150,37 @@ function selectAnswer(x){
     nextButton.style.display = 'block';
     
   }
+
+  function showScore(){
+    
+    resetQuiz();
+    question.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.classList.add('play-button');
+    nextButton.style.display = "block";
+   
+    
+} 
+function selectNextButton(){
+    currentQuestionIndex++;
+    if ( currentQuestionIndex < questions.length){
+        showQuestion();
+       
+    }else {
+        showScore();
+        
+    }
+}
+
+
+nextButton.addEventListener('click', () => {
+    if(currentQuestionIndex < questions.length){
+        selectNextButton();
+    }else{
+        startQuiz();
+        
+    }
+    
+});
+
+ startQuiz();
