@@ -23,7 +23,6 @@ p {
 
  a {
     text-decoration: none;
-    color: whitesmoke;
  }
 
 .container {  
@@ -97,6 +96,7 @@ p {
 
 
 .wrapper {
+    font-weight: 600;
     width: 60%;
     max-width: 600px;
     margin: 450px auto 0;
@@ -126,3 +126,23 @@ p {
 .hide{
     display: none;
 }
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.social-links {
+    width: 100%;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    text-decoration: none;
+}
+.social-links i {
+    font-size: 150%;
+    margin: 1%;
+    color:rgb(119, 95, 49);
+  }
