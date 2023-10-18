@@ -96,6 +96,7 @@ const nextButton = document.getElementById('next');
 const startButton = document.querySelector('.start-btn');
 const quizContainer = document.querySelector('.container');
 const welcomeScreen = document.querySelector ('.wrapper'); 
+const audioPlayer = document.querySelector('.audio');
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -104,12 +105,14 @@ startButton.addEventListener('click',function(){
     document.body.style.backgroundImage = 'linear-gradient(whitesmoke, rgba(0, 0, 0, 0.3)),url(assets/images/hagwards-castle.jpg)';
     welcomeScreen.classList.add('hide');
     quizContainer.classList.remove('hide');
+    audioPlayer.classList.remove('hide');
     startQuiz();
 });
 
 window.onload = function () {
     welcomeScreen.classList.remove('hide');
     quizContainer.classList.add('hide');
+    audioPlayer.classList.add('hide');
    
  };
 
