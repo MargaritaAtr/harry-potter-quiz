@@ -8,7 +8,7 @@ Harry Potter  has been chosen as it is the most popular book story in the kids' 
 
 <br>
 
-![Alt text](/assets/readme-images/responsive-img.jpeg)
+![Alt text](/assets/readme-images/response-img.jpeg)
 
 ## `Table of Contents`
 
@@ -37,7 +37,8 @@ Harry Potter  has been chosen as it is the most popular book story in the kids' 
 
 ## `Site Purpose:` 
 
-This website is designed to test user`s knowledge of Harry potter story and have a fun.
+This website is designed to test users' knowledge of Harry Potter story while listening to the Harry Potter theme song.
+The user will get direct feedback on whether he selected the correct or incorrect answer to each question. Once all questions are answered, a message with the score and a "Play again" button will be displayed, encouraging the user to improve his score if he wishes to do so.
  
 
 ## `Site Goal:` 
@@ -66,7 +67,10 @@ To ensure all questions and answers are relevant, and all functions of the quiz 
 
 ## `Colour scheme:`
 
-The primary colour chosen is rich black› with whitesmoke and gold elements, which gives a nice contrast.
+
+![Alt text](/assets/readme-images/colour-pallete.jpeg)
+
+The primary colour chosen is rich black with whitesmoke and gold elements, which gives a nice contrast.
  Green colour has been chosen to highlight a correct answer and red to highlight a wrong answer. The bright colours on a black and white background are good for eye-catching.
 
 <br>
@@ -78,7 +82,7 @@ The icons used  for social media links and projects are from [Font Awesome.](htt
 
 ## `Imagery:`
 
-The both images of Hogwards Express train and Hogwards school have been taken from (https://unsplash.com)
+The both images of Hogwards Express train and Hogwards school have been taken from [Unsplash.](https://unsplash.com)
 
 <br>
 
