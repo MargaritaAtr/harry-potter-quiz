@@ -94,8 +94,6 @@ The both images of Hogwards Express train and Hogwards school have been taken fr
 
 The background picture of the Welcome page is the Hogwarts Express train. There is a short instruction for the quiz - to make the user aware of what to expect from this website. Also, there is a "GO!" button, which changes a background image, starts the quiz and shows an audio player.
 
-<br>
-
 ## `Second page with quiz container`
 
 ![Alt text](/assets/readme-images/quiz-container.jpeg)
@@ -124,5 +122,41 @@ When the user answers all ten questions, it is coded that the score will be disp
 
 ![Alt text](/assets/readme-images/social-links.jpeg)
 
-The icons are linked to Nikol`l social media platforms, like Facebook , Telegram and Instagram.
+The icons are linked to Nikol`s social media platforms, like Facebook , Telegram and Instagram.
+
+## **`Future Features:`**
+
+- To add more questions with various levels of  difficulty 
+- The timer can be inplemented in the future.
+
+## **`TESTING`**
+
+## `Manual Testing`
+
+| Test                                                                                                                                                             | Expected                                                                                                                                                                                                   | Outcome     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
+| Open First page with "GO" button.  | The clear image of the train should be loaded on the background, along with short instructions and a "GO!" button in the middle of the screen and social media icons on the bottom.| Initially, the train image would not load on a live website. I changed the URL directory, and it works as expected.|
+| Click "GO!" button.| The background image changes to Hogward school image, and the first question and four options of answers are displayed. Also, the audio player is shown at the bottom of the page above the social links.| As Expected|
+|Select any answer for the first question.| An incorrect answer is highlighted in red, the correct answer turns green, and the other two answers can not be selected,the next button appears.| As Expected |
+| Click "Next" button.| The next question displayed with four other answers.|As Expected|
+| Click button on audio player| The theme songs start playing. There is a mix of Harry Potter theme songs, so music can be rewind anytime or turned off. Also, you can adjust the volume of the player.| When I first pushed the audio player into Git Hub, it did not load on a live website. So, I reduced the file size ( from 7.5 MB to 2.4 MB) through the free converter, pushed the file again, and then it was displayed as expected.
+|Select  3 or less correct answers| The message comes up as: " Oh NO! It must be not your day today.. You answered (shows your score) out of 10 ! Lets try again!. Try Again button displayed.| As Expected|
+|Select 4 or more correct answers| The message comes up : "You are nearly there. Keep trying..You answered ( shows your score) out of 10! ." Try Again button displayed.|As Expected |
+|Select 10 correct answers| The following message comes up: "Yahoo! You answered (shows your score) out of 10! You are the star!" Play Again button displayed.| As Expected|
+|Click "Try Again" or "Play Again" button| Quiz restarts from first question. Next Button is not displayed until you select any answer.| As Expected|
+|Load a window| The quiz disappears, and the screen returns to the first welcome page with the train image and "GO" button again. | As Expected |
+|Select one of the social link icons|  The new page opens with a selected social  platform ( Nikol`s Facebook, Telegram or Instagram) | As Expected|
+
+## `Responsiveness`
+
+The website is responsive for different screen sizes. I have changed a few parameters in style.css for media screens less than 520px. The website was tested by using a web developer in Google Chrome. Also, I have checked the website on other devices: different size iPhones and iPads.
+
+## `Browser compatibility` 
+The website was tested in different browsers. 
+
+|Browser| compatibility|
+|------------------------------------|-------------|
+|Mozilla Firefox |no problems|
+|Safari  |no problems|
+|Google Chrome  | no problems|
 
