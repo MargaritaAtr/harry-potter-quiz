@@ -170,16 +170,6 @@ function selectAnswer(x){
     
   }
 
-  function showScore(){
-    
-    resetQuiz();
-    question.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
-    nextButton.classList.add('play-button');
-    nextButton.style.display = "block";
-   
-    
-} 
 function selectNextButton(){
     currentQuestionIndex++;
     if ( currentQuestionIndex < questions.length){
@@ -202,5 +192,22 @@ nextButton.addEventListener('click', () => {
     
 });
 
- startQuiz();
+
+function showScore(){
+    resetQuiz();
+    if (score === 10){
+    question.innerHTML = `Yahoo! You answered ${score} out of ${questions.length}! You are the star!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+    } else if (score <= 3){
+        question.innerHTML = `Oh NO! It must be not your day today.. You answered ${score} out of ${questions.length}! Lets try again!`;
+        nextButton.innerHTML = "Try Again";
+        nextButton.style.display = "block";
+    } else if ( score => 3 && score <10 ){
+        question.innerHTML = `You are nearly there. Keep trying..You answered ${score} out of ${questions.length}! `;
+        nextButton.innerHTML = "Try Again";
+        nextButton.style.display = "block";
+    }
+    
+} 
 
