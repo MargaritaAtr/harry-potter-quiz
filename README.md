@@ -25,8 +25,11 @@ Harry Potter  has been chosen as it is the most popular book story in the kids' 
  + [Existing Features](#existing-features "Existing Features")
  + [Future Features](#future-features "Future Features")
 ## [Testing](#testing "Testing")
-  + [Validator Testing](#validator-testing "Validator Testing")
-  + [Fixed Bugs](#fixed-bugs "fixed Bugs")
+ + [Manual Testing](#manual-testing "Manual Testing")
+ + [Responsivness](#responsivness "Responsiveness")
+ + [Browser compatibility](#browser-compatibility "Browser compatibility")
+ + [Validator Testings](#validator-testings "Validator Testings")
+ + [Fixed Bugs](#fixed-bugs "fixed Bugs")
 ## [Technologies Used](#technologies-used "Technologies Used")
   + [ Languages Used](#languages-used " Languages Used")
   + [Frameworks, Programs Used](#frameworks-programs-used "Frameworks, Programs Used")
@@ -135,10 +138,10 @@ The icons are linked to Nikol`s social media platforms, like Facebook , Telegram
 
 | Test                                                                                                                                                             | Expected                                                                                                                                                                                                   | Outcome     |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
-| Open First page with "GO" button.  | The clear image of the train should be loaded on the background, along with short instructions and a "GO!" button in the middle of the screen and social media icons on the bottom.| Initially, the train image would not load on a live website. I changed the URL directory, and it works as expected.|
-| Click "GO!" button.| The background image changes to Hogward school image, and the first question and four options of answers are displayed. Also, the audio player is shown at the bottom of the page above the social links.| As Expected|
+| Open First page with "GO" button | The clear image of the train should be loaded on the background, along with short instructions and a "GO!" button in the middle of the screen and social media icons on the bottom.| Initially, the train image would not load on a live website. I changed the URL directory, and it works as expected.|
+| Click "GO!" button| The background image changes to Hogward school image, and the first question and four options of answers are displayed. Also, the audio player is shown at the bottom of the page above the social links.| As Expected|
 |Select any answer for the first question.| An incorrect answer is highlighted in red, the correct answer turns green, and the other two answers can not be selected,the next button appears.| As Expected |
-| Click "Next" button.| The next question displayed with four other answers.|As Expected|
+| Click "Next" button| The next question displayed with four other answers.|As Expected|
 | Click button on audio player| The theme songs start playing. There is a mix of Harry Potter theme songs, so music can be rewind anytime or turned off. Also, you can adjust the volume of the player.| When I first pushed the audio player into Git Hub, it did not load on a live website. So, I reduced the file size ( from 7.5 MB to 2.4 MB) through the free converter, pushed the file again, and then it was displayed as expected.
 |Select  3 or less correct answers| The message comes up as: " Oh NO! It must be not your day today.. You answered (shows your score) out of 10 ! Lets try again!. Try Again button displayed.| As Expected|
 |Select 4 or more correct answers| The message comes up : "You are nearly there. Keep trying..You answered ( shows your score) out of 10! ." Try Again button displayed.|As Expected |
@@ -160,3 +163,27 @@ The website was tested in different browsers.
 |Safari  |no problems|
 |Google Chrome  | no problems|
 
+## `Validator testings` 
+
+- HTML file passed through W3C validator testing with no errors found.
+
+![Alt text](/assets/readme-images/w3c-checker.jpeg)
+
+- CSS file passed through Jigsaw validator testing with no errors found.
+
+![Alt text](/assets/readme-images/jigsaw-validator.jpeg)
+
+- The website page has a great accessibility rating in Lighthouse.
+
+![Alt text](/assets/readme-images/lighthouse.jpeg)
+
+- JS file passed through JSHINT with no issues found.
+
+![Alt text](/assets/readme-images/jshint.jpeg)
+
+## `Fixed bugs` 
+
+1) The train image would not load on the live website, even though I could see it when I opened it through the live server, and it was linked to the correct folder.
+I have tried reloading the picture a few times, and it did not work. I have googled the possible reasons for this issue and found a solution to change the URL directory. It was url(assets/images/train.jpg), and I changed it to url(../images/train.jpg) and finally it worked.
+
+2) The audio player would not load into Github and, therefore, would not display on the live website. Again, I have googled and found a possible issue: the file is too big. Consequently, I converted the file from 7.5 MB to 2.3 MB using a free converter (https://www.onlineconverter.com/convert), and it worked.
