@@ -40,6 +40,8 @@ p {
     font-weight: 800 ;
     padding-bottom: 20px;
     text-align: left;
+    border-bottom: 1px solid black;
+    
 }
 
 .quiz h2 {
@@ -155,6 +157,7 @@ footer {
 
 audio{
     padding:10px;
+    margin:10px;
 }
 
   @media screen and (max-width: 520px) {
@@ -182,10 +185,8 @@ audio{
     p{
         color: rgb(2,21,21);
     }
-   
-    /* audio { 
-            padding:5px;
-        
-    } */
+   audio{
+    width:200px;
+   }
     
 }
