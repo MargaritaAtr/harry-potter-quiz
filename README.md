@@ -86,3 +86,43 @@ The both images of Hogwards Express train and Hogwards school have been taken fr
 
 <br>
 
+# `Existing Features`
+
+## `Welcome page with "GO!" button and instructions`
+
+![Alt text](/assets/readme-images/welcome-img.jpeg)
+
+The background picture of the Welcome page is the Hogwarts Express train. There is a short instruction for the quiz - to make the user aware of what to expect from this website. Also, there is a "GO!" button, which changes a background image, starts the quiz and shows an audio player.
+
+<br>
+
+## `Second page with quiz container`
+
+![Alt text](/assets/readme-images/quiz-container.jpeg)
+
+On this screen, there is an invisible container of the quiz so that the user can see a school in the background. The quiz contains ten questions and four options of the answers.
+
+## `Quiz`
+
+![Alt text](/assets/readme-images/quiz.jpeg)
+
+There are four options for the answers to each question. In total, ten questions have been generated in Chat GPT. When the user clicks any answers, a function is set up to highlight the right question in green and the wrong question in red, preventing the user from selecting other options. Also, at the same time, the Next button appears, which enables the user to move to the next question.
+
+## `Audio player`
+
+![Alt text](/assets/readme-images/player.jpeg)
+
+The user can play the theme song while taking the quiz. He can adjust a volume, rewind a song at any time or even turn it off if he does not like it.
+
+## `Display of the score`
+
+![Alt text](/assets/readme-images/score-img.jpeg)
+
+When the user answers all ten questions, it is coded that the score will be displayed with a message. There are three different messages, depending on the score.
+
+## `Icons of social links`
+
+![Alt text](/assets/readme-images/social-links.jpeg)
+
+The icons are linked to Nikol`l social media platforms, like Facebook , Telegram and Instagram.
+
