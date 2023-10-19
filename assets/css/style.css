@@ -1,4 +1,4 @@
-
+/* --------- general basic style of body */
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +25,7 @@ p {
     text-decoration: none;
  }
 
+ /* --------- quiz container layout and headings style */
 .container {  
     width: 90%;
     max-width: 600px;
@@ -33,6 +34,7 @@ p {
   
    
 }
+
 .container h1{
     text-transform: uppercase;
     font-size: 40px;
@@ -51,6 +53,7 @@ p {
     text-align: left;
    
 }
+/* --------- answer buttons */
 
 .btn {
     background:whitesmoke;
@@ -67,15 +70,19 @@ p {
     transition: all 0.3s;
 
 }
+/* --------- hover effect hidden when users select the button */ 
+
 .btn:hover.btn:hover:not([disabled]){
     background:  #222;
     color :whitesmoke;
 
 }
+/* --------- disable the button  */ 
 .btn:disabled {
     cursor: no-drop;
 }
 
+/* --------- the stule of next button */
 #next{
     background: #050c18;
     color: whitesmoke;
@@ -96,7 +103,7 @@ p {
     background: rgb(171, 92, 92);
 }
 
-
+/* --------- the layout of container with instructions and "GO" btn */
 .wrapper {
     font-weight: 600;
     width: 60%;
@@ -110,7 +117,7 @@ p {
     align-items: center;
     
 }
-
+/* --------- the style of "GO" button */
 .start-btn{
    
     text-transform: capitalize;
@@ -129,6 +136,7 @@ p {
 .hide{
     display: none;
 }
+/* --------- the footer area */
 footer {
     width: 100%;
     position: absolute;
@@ -136,6 +144,9 @@ footer {
    text-align: center;
    z-index: 2;
 }
+
+/* --------- the layout and style of the social media icons */
+
 .social-links {
     width: 100%;
     text-align: center;
@@ -150,6 +161,9 @@ footer {
     margin: 1%;
     color:rgb(119, 95, 49);
   }
+
+  /* --------- audio player layout and text style */
+
   .audio p {
     color:rgb(119, 95, 49);;
     font-weight: 600;
@@ -159,6 +173,7 @@ audio{
     padding:10px;
     margin:10px;
 }
+/* For smaller screens sizes from 520px wide and down */
 
   @media screen and (max-width: 520px) {
     body {
