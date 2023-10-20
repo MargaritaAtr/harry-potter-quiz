@@ -1,6 +1,6 @@
 # Harry Potter Quiz
 
-It is a second project that I created for Nikol. She is a tutor who works closely with kids and she gave me the idea to create a quiz for her students.
+It is a second project that I created for my sister Nikol. She is a tutor who works closely with kids and she gave me the idea to create a quiz for her students.
 Harry Potter  has been chosen as it is the most popular book story in the kids' world. Therefore, I thought testing kids' knowledge of this story would be fun.
 
 
@@ -18,6 +18,7 @@ Harry Potter  has been chosen as it is the most popular book story in the kids' 
   + [Audience](#audience "Audience")
   + [User Goals](#current-user-goals "User Goals") 
  ## [Design](#design "Design")
+  + [Sketching](#sketching "Sketching")
   + [Colour scheme](#colourscheme "Colour scheme")
   + [Typography](#typography "Typography")
   + [Imagery](#imagery "Imagery") 
@@ -33,7 +34,7 @@ Harry Potter  has been chosen as it is the most popular book story in the kids' 
 ## [Technologies Used](#technologies-used "Technologies Used")
   + [ Languages Used](#languages-used " Languages Used")
   + [Frameworks, Programs Used](#frameworks-programs-used "Frameworks, Programs Used")
-## [Deployment](#deployment "Deployment")
+## [Deployment and Local Development](#deployment-and-local-development "Deployment and Local Development")
 ## [Credits](#credits "Credits")
  
 # `UX`
@@ -46,7 +47,7 @@ The user will get direct feedback on whether he selected the correct or incorrec
 
 ## `Site Goal:` 
 
-To ensure all questions and answers are relevant, and all functions of the quiz are working.
+To ensure all questions and answers are relevant, and all functions of the quiz a nd website are working .
 
 
 ## `Audience: `
@@ -67,6 +68,11 @@ To ensure all questions and answers are relevant, and all functions of the quiz 
     I had a few meetings with Nikol, where we discussed a design of the website, questions, images to use and the quiz layout.
     The colourful picture of the Hogward train gives a feeling that there is an adventure waiting for you, and when you press the button "GO", it brings a new image of Hogward school with a foggy effect, making you feel like there is something mysterious within this quiz.
 <br>
+
+## `Sketching`
+
+![Alt text](/assets/readme-images/sketching.jpeg)
+
 
 ## `Colour scheme:`
 
@@ -111,7 +117,7 @@ There are four options for the answers to each question. In total, ten questions
 
 ## `Audio player`
 
-![Alt text](/assets/readme-images/player.jpeg)
+![Alt text](/assets/readme-images/audio-player.jpeg)
 
 The user can play the theme song while taking the quiz. He can adjust a volume, rewind a song at any time or even turn it off if he does not like it.
 
@@ -121,7 +127,7 @@ The user can play the theme song while taking the quiz. He can adjust a volume, 
 
 When the user answers all ten questions, it is coded that the score will be displayed with a message. There are three different messages, depending on the score.
 
-## `Icons of social links`
+## `Icons of social media links`
 
 ![Alt text](/assets/readme-images/social-links.jpeg)
 
@@ -186,4 +192,65 @@ The website was tested in different browsers.
 1) The train image would not load on the live website, even though I could see it when I opened it through the live server, and it was linked to the correct folder.
 I have tried reloading the picture a few times, and it did not work. I have googled the possible reasons for this issue and found a solution to change the URL directory. It was url(assets/images/train.jpg), and I changed it to url(../images/train.jpg) and finally it worked.
 
-2) The audio player would not load into Github and, therefore, would not display on the live website. Again, I have googled and found a possible issue: the file is too big. Consequently, I converted the file from 7.5 MB to 2.3 MB using a free converter (https://www.onlineconverter.com/convert), and it worked.
+2) The audio player would not load into Github and, therefore, would not display on the live website. Again, I have googled and found a possible issue: the file is too big. Consequently, I converted the file from 7.5 MB to 2.3 MB using a free converter https://www.onlineconverter.com/convert , and it worked. Also later on, I have croped the music from 7.40 mins to 3.40 mins, as it seemed the music it too long
+
+## **`Technologies used:`**
+
+## Languages Used
+
+- HTML5
+- CSS3
+- Javascript
+
+## Libraries, frameworks and programms Used
+
+- [Font Awesome](https://fontawesome.com/)- To create the icons for social media links.
+- [Goodnotes app](https://www.goodnotes.com) - for scetching initial wireframe design.
+- [Am I responsive](https://ui.dev/amiresponsive) - To see if the website looks good in all devices.
+- [Coolors](https://coolors.co) - To make a colour pallete.
+- [Online Converter](https://www.onlineconverter.com/convert) - To reduce the size of the audio player.
+- [Favicon](https://favicon.io) - To create a favicon.
+- [Unsplash](https://unsplash.com) - To get the background images.
+- [Github](https://github.com/) - To save and store the files for the website.
+- [Google Developer Tools](https://developers.google.com/web/tools) - To solve issues with styling and responsivness.
+
+## **`Deployment & Local Development`**
+
+### Deployment
+
+The site was deployed to Github pages using the following steps to deploy:
+
+1. In the GitHub repository, navigate to the Setting tab.
+2. In the Code and Automation section, choose the Pages option.
+3. Select Deploy from a branch from the Source menu.
+4. Select Main from the Branch menu.
+5. Select Save to confirm, the page will then be deployed.
+
+Link to live site - [Here](https://margaritaatr.github.io/harry-potter-quiz/)
+
+### Local Development
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Select the relevant repository.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Visual code editor, select "clone repository" and then paste the link you copied from GitHub into  address bar. Enter.
+5. Select the location where you want to save a repository and  press Enter.
+
+## **`Credits`**
+
+- The basic structure of the quiz code used was inspired by YouTube video [GreatStack video ](https://www.youtube.com/watch?v=PBcqGxrr9g8)
+- Few tricks used for the website were inspired by the Love Math Walkthrough project from Code institute 
+- The both images were taken from [Coolors](https://coolors.co)
+- The questions and answers were chosen using [ChatGPT](https://chat.openai.com/auth/login)
+- The information on how to implement an audio player was found on [w3shools](https://www.w3schools.com/html/html5_audio.asp)
+- The audio player for Harry Potter theme song has been taken from [Televisiontunes](https://www.televisiontunes.com/Harry_Potter_-_Main_Theme.html)
+- To crop Harry Potter music from 7.40 mins to 3.30 mins I have used free [audio trimmer](https://audiotrimmer.com/#google_vignette)
+- The free converter has been used to reduce size of the audio player [Online Converter](https://www.onlineconverter.com/convert)
+- To check grammar mistakes was used [Grammarly](https://app.grammarly.com/)
+- The credits also go to my siter Nikol , who suggested to choose Harry Potter story for the quiz and helped me with design.
+- A special acknowledgment to Martina Terlevic for the support and some advices.
+
