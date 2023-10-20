@@ -4,7 +4,7 @@ const questions = [
     {
         question:"What is the name of Harry Potter's best friend?",
         answers: [
-            { text :"Hermione Granger", correct: false},
+            { text :"Neville Longbottom", correct: false},
             { text :"Draco Malfoy", correct: false},
             { text :"Ron Weasley", correct: true},
             { text :"Luna Lovegood", correct: false},
@@ -40,10 +40,10 @@ const questions = [
     {
         question:"What is the core of Voldemort's wand?",
         answers: [
-            { text :"Phoenix feather", correct: true},
             { text :"Dragon heartstring", correct: false},
             { text :"Thestral hair", correct: false},
             { text :"Veela hair", correct: false},
+            { text :"Phoenix feather", correct: true},
         ]
     },
     {
@@ -85,13 +85,13 @@ const questions = [
     {
         question:"What is the Marauder's Map used for?",
         answers: [
-            { text :"Revealing the layout of Hogwarts and the location of people within it.", correct: true},
             { text :"Brewing powerful potions", correct: false},
             { text :"Flying without a broomstick", correct: false},
+            { text :"Revealing the layout of Hogwarts and the location of people within it.", correct: true},
             { text :"aming magical creatures", correct: false},
         ]
     },
-]
+];
 // The main variables used in the code
 
 const question = document.getElementById('question');
@@ -107,7 +107,7 @@ const audioPlayer = document.querySelector('.audio');
 let currentQuestionIndex = 0;
 let score = 0;
 
-// Event listener with  click event  on "GO" button to change background image,shows quiz, audio player and start Quiz
+// Event listener with  click event  on "GO" button to change background image, show a quiz, audio player and start Quiz.
 
 startButton.addEventListener('click',function(){
     document.body.style.backgroundImage = 'linear-gradient(whitesmoke, rgba(0, 0, 0, 0.3)),url(assets/images/hagwards-castle.jpg)';
@@ -133,7 +133,7 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestion();
     
- };
+ }
  // Function to show question with right index number and update text with relevant options of the answers on the button 
  // Event listener with click event for the selection of the answer. 
 
@@ -161,8 +161,7 @@ function startQuiz(){
     nextButton.style.display = 'none';
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);  
-    }
-  
+    } 
 }
 
 //Function to identify the option clicked by the user and check if answer is correct; 
@@ -185,9 +184,9 @@ function selectAnswer(x){
         }
         button.disabled = true;
     });
-    nextButton.style.display = 'block';
-    
+    nextButton.style.display = 'block';   
   }
+
 // Function to show one by one  questions with answers; There are 10 questions in total
 // When all questions answered , to show a score .
 
@@ -211,11 +210,10 @@ nextButton.addEventListener('click', () => {
     }else{
         startQuiz();
         
-    }
-    
+    }  
 });
 
-// Function to show score if all questions answered and three different messages come up depending on the score
+// Function to show the score if all questions answered and three different messages come up depending on the score
 
 function showScore(){
     resetQuiz();
@@ -233,4 +231,4 @@ function showScore(){
         nextButton.style.display = "block";
     }
     
-} ;
+} 
