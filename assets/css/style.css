@@ -173,6 +173,21 @@ audio{
     padding:10px;
     margin:10px;
 }
+  /* --------- style for error page */
+ .error-page{
+    background-image:none ;
+    background-color: rgb(2,21,21);;
+ }
+.wrap-container{
+    margin: 250px 0 auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+}
+ 
+
 /* For smaller screens sizes from 520px wide and down */
 
   @media screen and (max-width: 520px) {
