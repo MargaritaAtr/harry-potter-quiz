@@ -250,7 +250,7 @@ To clone the repository:
 
 - The basic structure of the quiz code used was inspired by YouTube video [GreatStack video ](https://www.youtube.com/watch?v=PBcqGxrr9g8)
 - Few tricks used for the website were inspired by the Love Math Walkthrough project from Code institute 
-- The both images were taken from [Coolors](https://coolors.co)
+- The both images were taken from [Unsplash.](https://unsplash.com)
 - The questions and answers were chosen using [ChatGPT](https://chat.openai.com/auth/login)
 - The information on how to implement an audio player was found on [w3shools](https://www.w3schools.com/html/html5_audio.asp)
 - The audio player for Harry Potter theme song has been taken from [Televisiontunes](https://www.televisiontunes.com/Harry_Potter_-_Main_Theme.html)

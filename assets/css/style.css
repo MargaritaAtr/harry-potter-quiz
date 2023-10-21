@@ -237,3 +237,10 @@ audio {
     }
 
 }
+/* For smaller screens sizes from 370px wide and down */
+
+@media screen and (max-width: 370px) {
+    .container{
+        padding:10px;
+    }
+}
