@@ -110,7 +110,7 @@ let score = 0;
 // Event listener with  click event  on "GO" button to change background image, show a quiz, audio player and start Quiz.
 
 startButton.addEventListener('click',function(){
-    document.body.style.backgroundImage = 'linear-gradient(whitesmoke, rgba(0, 0, 0, 0.3)),url(assets/images/hagwards-castle.jpg)';
+    document.body.style.backgroundImage = 'linear-gradient(whitesmoke, rgba(0, 0, 0, 0.3)),url(assets/images/hogwards-castle.jpg)';
     welcomeScreen.classList.add('hide');
     quizContainer.classList.remove('hide');
     audioPlayer.classList.remove('hide');
