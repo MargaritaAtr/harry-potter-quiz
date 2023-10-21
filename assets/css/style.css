@@ -16,47 +16,49 @@ body {
     flex-direction: column;
 
 }
+
 p {
-    color:whitesmoke;
+    color: whitesmoke;
     text-transform: capitalize;
 }
 
- a {
+a {
     text-decoration: none;
- }
+}
 
- /* --------- quiz container layout and headings style */
-.container {  
+/* --------- quiz container layout and headings style */
+.container {
     width: 90%;
     max-width: 600px;
     margin: 150px auto 0;
-    border-radius: 10px;    
-  
-   
+    border-radius: 10px;
+
+
 }
 
-.container h1{
+.container h1 {
     text-transform: uppercase;
     font-size: 40px;
-    color: rgb(2,21,21);
-    font-weight: 800 ;
+    color: rgb(2, 21, 21);
+    font-weight: 800;
     padding-bottom: 20px;
     text-align: left;
     border-bottom: 1px solid black;
-    
+
 }
 
 .quiz h2 {
     font-size: 20px;
-    color: rgb(2,21,21);
-    font-weight:600;
+    color: rgb(2, 21, 21);
+    font-weight: 600;
     text-align: left;
-   
+
 }
+
 /* --------- answer buttons */
 
 .btn {
-    background:whitesmoke;
+    background: whitesmoke;
     color: #222;
     font-size: 15px;
     font-weight: 500;
@@ -70,20 +72,22 @@ p {
     transition: all 0.3s;
 
 }
-/* --------- hover effect hidden when users select the button */ 
 
-.btn:hover.btn:hover:not([disabled]){
-    background:  #222;
-    color :whitesmoke;
+/* --------- hover effect hidden when users select the button */
+
+.btn:hover.btn:hover:not([disabled]) {
+    background: #222;
+    color: whitesmoke;
 
 }
-/* --------- disable the button  */ 
+
+/* --------- disable the button  */
 .btn:disabled {
     cursor: no-drop;
 }
 
 /* --------- the stule of next button */
-#next{
+#next {
     background: #050c18;
     color: whitesmoke;
     font-weight: 500;
@@ -95,11 +99,12 @@ p {
     cursor: pointer;
     display: none;
 }
-.correct{
+
+.correct {
     background: rgb(100, 168, 100);
 }
 
-.wrong{
+.wrong {
     background: rgb(171, 92, 92);
 }
 
@@ -109,21 +114,22 @@ p {
     width: 60%;
     max-width: 600px;
     margin: 450px auto 0;
-    border-radius: 10px;    
+    border-radius: 10px;
     padding: 30px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
 /* --------- the style of "GO" button */
-.start-btn{
-   
+.start-btn {
+
     text-transform: capitalize;
     font-weight: 600;
     color: black;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     padding: 1em;
     border-radius: 60%;
     border: 1px solid black;
@@ -131,18 +137,20 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     
+
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 /* --------- the footer area */
 footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-   text-align: center;
-   z-index: 2;
+    text-align: center;
+    z-index: 2;
 }
 
 /* --------- the layout and style of the social media icons */
@@ -156,68 +164,76 @@ footer {
     display: inline;
     text-decoration: none;
 }
+
 .social-links i {
     font-size: 150%;
     margin: 1%;
-    color:rgb(119, 95, 49);
-  }
-
-  /* --------- audio player layout and text style */
-
-  .audio p {
-    color:rgb(119, 95, 49);;
-    font-weight: 600;
-  }
-
-audio{
-    padding:10px;
-    margin:10px;
+    color: rgb(119, 95, 49);
 }
-  /* --------- style for error page */
- .error-page{
-    background-image:none ;
-    background-color: rgb(2,21,21);;
- }
-.wrap-container{
+
+/* --------- audio player layout and text style */
+
+.audio p {
+    color: rgb(119, 95, 49);
+    ;
+    font-weight: 600;
+}
+
+audio {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* --------- style for error page */
+.error-page {
+    background-image: none;
+    background-color: rgb(2, 21, 21);
+    ;
+}
+
+.wrap-container {
     margin: 250px 0 auto;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     color: antiquewhite;
 }
- 
+
 
 /* For smaller screens sizes from 520px wide and down */
 
-  @media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
     body {
         width: 100%;
     }
-        
-    .container {  
+
+    .container {
         width: 100%;
         max-width: 500px;
         margin: 0;
         padding: 20px;
-     
-    
+
+
     }
+
     .wrapper {
-        margin:150px auto 0;
+        margin: 150px auto 0;
 
     }
 
-    .start-btn{
-        margin-top:50px;
-        padding:10px;
-        margin-right:25px;
+    .start-btn {
+        margin-top: 50px;
+        padding: 10px;
+        margin-right: 25px;
     }
-    p{
-        color: rgb(2,21,21);
+
+    p {
+        color: rgb(2, 21, 21);
     }
-   audio{
-    width:200px;
-   }
-    
+
+    audio {
+        width: 200px;
+    }
+
 }
