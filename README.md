@@ -1,10 +1,10 @@
 # Harry Potter Quiz
 
 It is a second project that I created for my sister Nikol. She is a tutor who works closely with kids and she gave me the idea to create a quiz for her students.
-Harry Potter  has been chosen as it is the most popular book story in the kids' world. Therefore, I thought testing kids' knowledge of this story would be fun.
+Harry Potter  has been chosen as it is the most popular book story in the kids' world. Therefore, I thought testing kids' knowledge of this story would be a fun.
 
 
- The website is live and the link can be found here [Here](https://margaritaatr.github.io/harry-potter-quiz/)
+ The website is live and the link can be found  [Here](https://margaritaatr.github.io/harry-potter-quiz/)
 
 <br>
 
@@ -47,7 +47,7 @@ The user will get direct feedback on whether he selected the correct or incorrec
 
 ## `Site Goal:` 
 
-To ensure all questions and answers are relevant, and all functions of the quiz a nd website are working .
+To ensure all questions and answers are relevant, and all functions of the quiz and website are working .
 
 
 ## `Audience: `
@@ -64,10 +64,10 @@ To ensure all questions and answers are relevant, and all functions of the quiz 
 * The user should be able to see a score and have a possibility to restart a quiz.
 
 # `Design:`
- 
-    I had a few meetings with Nikol, where we discussed a design of the website, questions, images to use and the quiz layout.
-    The colourful picture of the Hogward train gives a feeling that there is an adventure waiting for you, and when you press the button "GO", it brings a new image of Hogward school with a foggy effect, making you feel like there is something mysterious within this quiz.
-<br>
+
+I had a few meetings with Nikol, where we discussed a design of the website, questions, images to use and the quiz layout. She asked me to change few answers for questions as their were not really appropriate.
+The colourful picture of the Hogward train gives a feeling that there is an adventure waiting for you, and when you press the button "GO", it brings a new image of Hogward school with a foggy effect, making you feel like there is something mysterious within this quiz.
+
 
 ## `Sketching`
 
@@ -86,7 +86,7 @@ The primary colour chosen is rich black with whitesmoke and gold elements, which
 
 ## `Typography:`
  Times Roman has been used for entire body.
-The icons used  for social media links and projects are from [Font Awesome.](https://fontawesome.com/)
+The icons used  for social media links are from [Font Awesome.](https://fontawesome.com/)
 <br>
 
 ## `Imagery:`
@@ -133,10 +133,16 @@ When the user answers all ten questions, it is coded that the score will be disp
 
 The icons are linked to Nikol`s social media platforms, like Facebook , Telegram and Instagram.
 
+## `404 page`
+
+![Alt text](/assets/readme-images/error-page.jpeg)
+
+Additional html file with the message, that the page cannot be found and refer back to the Homepage, when you click on the word "Homepage"
+
 ## **`Future Features:`**
 
 - To add more questions with various levels of  difficulty 
-- The timer can be inplemented in the future.
+- The timer can be implemented in the future.
 
 ## **`TESTING`**
 
@@ -205,7 +211,7 @@ I have tried reloading the picture a few times, and it did not work. I have goog
 ## Libraries, frameworks and programms Used
 
 - [Font Awesome](https://fontawesome.com/)- To create the icons for social media links.
-- [Goodnotes app](https://www.goodnotes.com) - for scetching initial wireframe design.
+- [Goodnotes app](https://www.goodnotes.com) - To scetch an initial wireframe design.
 - [Am I responsive](https://ui.dev/amiresponsive) - To see if the website looks good in all devices.
 - [Coolors](https://coolors.co) - To make a colour pallete.
 - [Online Converter](https://www.onlineconverter.com/convert) - To reduce the size of the audio player.
@@ -250,6 +256,7 @@ To clone the repository:
 - The audio player for Harry Potter theme song has been taken from [Televisiontunes](https://www.televisiontunes.com/Harry_Potter_-_Main_Theme.html)
 - To crop Harry Potter music from 7.40 mins to 3.30 mins I have used free [audio trimmer](https://audiotrimmer.com/#google_vignette)
 - The free converter has been used to reduce size of the audio player [Online Converter](https://www.onlineconverter.com/convert)
+- The free converter has been used to reduce the size of both images [Tinyfy](https://tinypng.com)
 - To check grammar mistakes was used [Grammarly](https://app.grammarly.com/)
 - The credits also go to my siter Nikol , who suggested to choose Harry Potter story for the quiz and helped me with design.
 - A special acknowledgment to Martina Terlevic for the support and some advices.
